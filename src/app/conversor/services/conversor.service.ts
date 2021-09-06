@@ -9,7 +9,8 @@ import { Conversao, ConversaoResponse } from "../models";
 })
 export class ConversorService {
 
-  private readonly BASE_URL = "http://api.fixer.io/latest";
+  // private readonly BASE_URL = "http://api.fixer.io/latest";
+  private readonly BASE_URL = "http://data.fixer.io/api/latest";
 
   constructor(private http: HttpClient) { }
 
