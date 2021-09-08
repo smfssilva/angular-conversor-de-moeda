@@ -7,6 +7,7 @@ import { MoedaService, ConversorService } from "./services";
 import { FormsModule } from '@angular/forms';
 import { NumeroDirective } from './directives';
 import { ModalCotacaoComponent } from './utils';
+import { DataBrPipe } from './pipes';
 
 
 
@@ -14,7 +15,8 @@ import { ModalCotacaoComponent } from './utils';
   declarations: [
     ConversorComponent,
     NumeroDirective,
-    ModalCotacaoComponent
+    ModalCotacaoComponent,
+    DataBrPipe
   ],
   imports: [
     CommonModule,
